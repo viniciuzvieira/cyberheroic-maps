@@ -13,8 +13,8 @@ function generateAndRenderWorld() {
     height: Number(ui.inputs.worldHeight?.value),
   });
 
-  const baseWidth = 10; // Size of horizontal blocks
-  const baseHeight = 6; // Size of vertical blocks
+  const baseWidth = 30; // Size of horizontal blocks
+  const baseHeight = 10; // Size of vertical blocks
 
   const layer = generator.addLayer({
     frequencyChange: Number(ui.inputs.frequencyChange?.value),
