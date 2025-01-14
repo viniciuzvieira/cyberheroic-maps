@@ -1,7 +1,7 @@
 {
   "name": "cyberheroic-maps",
   "description": "Procedural generation 2D map with biomes",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "keywords": [
     "map",
     "generation",
