@@ -15,7 +15,7 @@ export const BIOMES: Array<{
       upperBound: 0.2,
     },
     data: {
-      name: 'WATER',
+      name: 'GRASS',
       color: 'dodgerblue',
     },
   },
