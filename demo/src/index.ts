@@ -13,7 +13,7 @@ function generateAndRenderWorld() {
     height: Number(ui.inputs.worldHeight?.value),
   });
 
-  const baseWidth = 30; // Size of horizontal blocks
+  const baseWidth = 50; // Size of horizontal blocks
   const baseHeight = 10; // Size of vertical blocks
 
   const layer = generator.addLayer({
@@ -34,6 +34,8 @@ function generateAndRenderWorld() {
   });
 
   savedSeed = world.seed;
+
+  console.log("seed gerado: ", savedSeed);
 
   // RENDER
   ui.screen.width = world.width * tileSize;
